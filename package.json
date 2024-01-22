@@ -1,0 +1,21 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "prod": "cross-env NODE_ENV=production vite build",
+        "watch": "vite build --watch",
+        "vite-build": "cd nama-proyek-vite && npm run build",
+        "css-build": "postcss resources/css/app.css -o public/css/app.css"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.16",
+        "axios": "^1.6.4",
+        "laravel-vite-plugin": "^1.0.0",
+        "postcss": "^8.4.33",
+        "rollup-plugin-postcss": "^4.0.2",
+        "tailwindcss": "^3.4.1",
+        "vite": "^5.0.0"
+    }
+}
